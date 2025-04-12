@@ -1,0 +1,24 @@
+{
+  "name": "@owll/node-env-checker", 
+  "version": "1.0.1",
+  "description": "A CLI tool to check for environment variables in your Node.js application.",
+  "main": "index.js",
+  "bin": {
+    "@owll/node-env-checker": "./index.js"
+  },
+  "scripts": {},
+  "keywords": ["cli", "env-checker", "dotenv"],
+  "author": "Yasin Dalkılıç",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@owll/node-env-checker": "file:",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.5.0",
+    "minimist": "^1.2.8",
+    "node-env-checker": "file:"
+  }
+}
